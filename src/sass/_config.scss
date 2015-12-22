@@ -1,0 +1,18 @@
+// This file is used to configure the colors and the max page size.
+$max-width: 80rem;
+$color--secondary: #90CAF9;
+$color--secondary-font: #3F51B5;
+$color--default-font: #363636;
+
+// Default Link and Link Hover color.
+// The dashed border uses currentColor to change.
+$color--link-default: #E91E63;
+$color--link-hover: #0D47A1;
+
+// Header Font & Background Colors
+$color--header-background:  $color--secondary-font;
+$color--header-font: $color--secondary;
+
+// Footer Font & Background Colors
+$color--footer-background: $color--secondary;
+$color--footer-font: $color--secondary-font;

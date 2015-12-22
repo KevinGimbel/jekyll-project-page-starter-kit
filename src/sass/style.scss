@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
+@import "_config";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html, body {
+  font-family: 'Inconsolata', monospace;
+  color:$color--default-font;
+  background: #eee;
+  font-weight: 400;
+}
+
+a {
+  color: $color--link-default;
+  text-decoration: none;
+  border-bottom: 1px dashed currentColor;
+
+  &:hover {
+    color: $color--link-hover;
+    font-weight: bold;
+  }
+}
+
+pre {
+  margin: 1rem 0;
+  overflow: auto;
+  max-width: 100%;
+}
+
+ol, ul {
+  margin-left: 1.5rem;
+}
+
+h2, .h2 {
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+.card-content h3 {
+  margin: 1rem 0;
+}
+
+.header,
+.footer {
+  width: 100%;
+  padding: 4rem;
+}
+
+.header {
+  background: $color--header-background;
+  color: $color--header-font;
+}
+
+.footer {
+  background: $color--footer-background;
+  color: $color--footer-font;
+}
+
+p > code {
+  background: #ddd;
+  padding: 0.15rem;
+  border-radius: 3px;
+}
+
+p + p {
+  margin:1.25rem 0;
+}
+
+.card {
+  margin: 0 auto;
+  max-width: $max-width;
+  width: 100%;
+  background: #fff;
+
+  &:first-of-type {
+    margin-top: 2rem;
+  }
+  &:last-of-type {
+    margin-bottom: 2rem;
+  }
+}
+
+.card-header,
+.card-content {
+  padding: 2rem;
+}
+
+.card-header {
+  background: $color--secondary;
+  color: $color--secondary-font;
+}
+
+.footer {
+  font-size: .9rem;
+  padding: 2rem;
+}

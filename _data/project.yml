@@ -1,0 +1,13 @@
+- accentcolor: '#1A237E'
+  twitter_description: 'Jekyll Project Page Starter is a Starter Kit for quickly creating project overview pages'
+  search_description: 'Jekyll Project Page Starter is a Starter Kit for quickly creating project overview pages'
+  keywords: 'project page, starter kit, jekyll, static site, github pages'
+  title: 'Jekyll Project Page Starter Kit'
+  name: 'Jekyll Project Page Starter Kit'
+  sub_title: 'Quickly create single-page project pages'
+  url: 'jekyll-project-page-starter-kit'
+  repo_url: 'https://github.com/kevingimbel/jekyll-project-page-starter-kit'
+  gitter: 'https://gitter.im/kevingimbel/jekyll-project-page-starter-kit'
+  author:
+    name: 'Kevin Gimbel'
+    url: 'http://kevingimbel.com'
