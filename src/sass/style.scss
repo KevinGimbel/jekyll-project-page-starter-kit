@@ -69,6 +69,15 @@ p + p {
   margin:1.25rem 0;
 }
 
+.content {
+    padding: 2rem;
+    background: #fff;
+    max-width: 80rem;
+    margin: auto;
+    margin-top: -2rem;
+    margin-bottom: 4rem;
+}
+
 .card {
   margin: 0 auto;
   max-width: $max-width;
@@ -83,14 +92,15 @@ p + p {
   }
 }
 
-.card-header,
 .card-content {
-  padding: 2rem;
+  padding: 2rem .5rem;
 }
 
 .card-header {
   background: $color--secondary;
   color: $color--secondary-font;
+  padding: 2rem;
+  border-radius: 3px;
 }
 
 .footer {
